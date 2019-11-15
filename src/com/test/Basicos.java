@@ -21,7 +21,15 @@ public class Basicos {
         System.out.println("Valor doble");
         System.out.println(doble);
     }
+    public static void cadenas() {
+    	String cadena;
+    	
+    	cadena = "Hola Mundo";
+    	
+    	System.out.println(cadena);
+    }
 	 public static void main(String[] args) {
-	        numericos();  // Llamada al método
+	        numericos();
+	        cadenas();
 	    }
 }
